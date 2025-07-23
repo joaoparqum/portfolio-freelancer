@@ -71,14 +71,14 @@ export const Navigation = ({
           <link.icon
             className={twMerge(
               "h-4 w-4 flex-shrink-0",
-              isActive(link.href) && "text-sky-500"
+              isActive(link.href) && "text-red-700"
             )}
           />
           <span>{link.label}</span>
         </Link>
       ))}
 
-      <Heading as="p" className="text-white text-sm md:text-sm lg:text-sm pt-10 px-2">
+      <Heading as="p" className="text-neutral-300 text-sm md:text-sm lg:text-sm pt-10 px-2">
         Redes
       </Heading>
       {socials.map((link: Navlink) => (
@@ -108,13 +108,13 @@ const SidebarHeader = () => {
       <Image
         src="/images/perfil.jpeg"
         alt="Avatar"
-        height="40"
-        width="40"
+        height="60"
+        width="60"
         className="object-cover object-top rounded-full flex-shrink-0"
       />
       <div className="flex text-sm flex-col">
         <p className="text-white font-bold text-primary">João P. Arquim</p>
-        <p className="text-white font-light text-secondary">Desenvolvedor</p>
+        <p className="text-white font-light text-secondary">HARDWORK ALWAYS WIN</p>
       </div>
     </div>
   );

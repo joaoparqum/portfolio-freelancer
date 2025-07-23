@@ -6,53 +6,64 @@ import { twMerge } from "tailwind-merge";
 export const TechStack = () => {
   const stack = [
     {
-      title: "Next.js",
-      src: "/images/logos/next.png",
+      title: "Spring",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
 
       className: "h-10 w-14",
     },
     {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
+      title: "Digital Ocean",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg",
 
       className: "h-10 w-10",
     },
     {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
-    },
-    {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
+      title: "Vue.Js",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
 
       className: "h-10 w-10",
+    },
+    {
+      title: "Nginx",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+
+      className: "h-10 w-10",
+    },
+    {
+      title: "Docker",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+
+      className: "h-10 w-14",
     },
     {
       title: "Node",
-      src: "/images/logos/node.png",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
 
       className: "h-10 w-12",
     },
     {
-      title: "Tailwind",
-      src: "/images/logos/tailwind.png",
+      title: "TypeScript",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
 
-      className: "h-10 w-24",
+      className: "h-10 w-14",
     },
     {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
+      title: "Tailwind",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 
-      className: "h-10 w-24",
+      className: "h-10 w-14",
     },
+    /*{ 
+      title: "Ant-Design",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-plain.svg",
+      className: "h-10 w-14"
+    }*/
   ];
   return (
     <div>
       <Heading
         as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
+        className="text-neutral-400 font-black text-lg md:text-lg lg:text-lg mt-14 mb-4"
       >
         Tech Stack
       </Heading>
