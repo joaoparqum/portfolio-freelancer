@@ -17,7 +17,7 @@ export default function Projects() {
   return (
     <Container>
       <span className="text-4xl">✉️</span>
-      <Heading className="text-neutral-400 font-black mb-2">Entre em contato comigo</Heading>
+      <Heading className="font-black mb-2">Entre em contato comigo</Heading>
       <Paragraph className="mb-10 max-w-xl">
         Entre em contato comigo por e-mail ou preencha este formulário de contato. Entrarei em contato com você.{" "}
       </Paragraph>

@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfólio - João Paulo",
+  title: "Portfólio | João Paulo",
   description:
     "João Paulo é um desenvolvedor/engenheiro de software que atua como full-stack",
 };

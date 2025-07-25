@@ -1,21 +1,20 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
+import vistasExplodidas from "public/images/vistas.png";
 import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
+import gringaEnglish from "public/images/gringa.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
+import marcacao from "public/images/marcacao.jpg";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import aeroportoVoo from "public/images/voos.png";
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://front-vistas-test.vercel.app/",
+    title: "Vistas Explodidas",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
+      "Vistas Explodidas é uma plataforma intuitiva para funcionários da empresa acessarem e compartilharem documentos importantes.",
+    thumbnail: vistasExplodidas,
+    images: [vistasExplodidas, sidefolioAceternity2],
+    stack: ["Vuejs", "Ant-Design", "Vuex", "Spring Boot", "PostgreSQL", "NGINX", "Docker"],
     slug: "aceternity",
     content: (
       <div>
@@ -39,13 +38,13 @@ export const products = [
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://lp.gringaenglish.com/",
+    title: "Gringa English - REYO",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
+      "Web plataforma com o intuito de oferecer aulas para aprender inglês usando IA.",
+    thumbnail: gringaEnglish,
+    images: [gringaEnglish, sidefolioAlgochurn2],
+    stack: ["Nextjs", "Tailwindcss", "Shadcn", "SupaBase", "TypeScript"],
     slug: "algochurn",
     content: (
       <div>
@@ -69,13 +68,13 @@ export const products = [
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "",
+    title: "Marcação - REYO",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
+    thumbnail: marcacao,
+    images: [marcacao, sidefolioMoonbeam2],
+    stack: ["Reactjs", "Laravel", "Docker", "Clean Code", "SOLID"],
     slug: "moonbeam",
     content: (
       <div>
@@ -99,13 +98,13 @@ export const products = [
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "",
+    title: "Gestão de Aeroporto",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
+      "Um sistema de gerenciamento para aeroporto mostrando os voos com suas propriedades.",
+    thumbnail: aeroportoVoo,
+    images: [aeroportoVoo],
+    stack: ["Vuejs", "Ant-Design", "Vuex", "Nestjs", "PostgreSQL"],
     slug: "tailwindmasterkit",
     content: (
       <div>
