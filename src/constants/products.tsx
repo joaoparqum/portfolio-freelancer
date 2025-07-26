@@ -1,9 +1,7 @@
 import vistasExplodidas from "public/images/vistas.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
+import vistas2 from "public/images/vistas2.jpg";
 import gringaEnglish from "public/images/gringa.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
 import marcacao from "public/images/marcacao.jpg";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import aeroportoVoo from "public/images/voos.png";
 
 export const products = [
@@ -13,7 +11,7 @@ export const products = [
     description:
       "Vistas Explodidas é uma plataforma intuitiva para funcionários da empresa acessarem e compartilharem documentos importantes.",
     thumbnail: vistasExplodidas,
-    images: [vistasExplodidas, sidefolioAceternity2],
+    images: [vistasExplodidas, vistas2],
     stack: ["Vuejs", "Ant-Design", "Vuex", "Spring Boot", "PostgreSQL", "NGINX", "Docker"],
     slug: "aceternity",
     content: (
@@ -43,7 +41,7 @@ export const products = [
     description:
       "Web plataforma com o intuito de oferecer aulas para aprender inglês usando IA.",
     thumbnail: gringaEnglish,
-    images: [gringaEnglish, sidefolioAlgochurn2],
+    images: [gringaEnglish],
     stack: ["Nextjs", "Tailwindcss", "Shadcn", "SupaBase", "TypeScript"],
     slug: "algochurn",
     content: (
@@ -71,9 +69,9 @@ export const products = [
     href: "",
     title: "Marcação - REYO",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
+      "Um sistema full-stack de agendamentos de atendementos de hospitais de uma cidade.",
     thumbnail: marcacao,
-    images: [marcacao, sidefolioMoonbeam2],
+    images: [marcacao],
     stack: ["Reactjs", "Laravel", "Docker", "Clean Code", "SOLID"],
     slug: "moonbeam",
     content: (

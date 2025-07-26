@@ -53,7 +53,7 @@ export const Products = () => {
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-neutral-200 font-black text-xs md:text-xs lg:text-xs bg-zinc-700 px-2 py-1 rounded-sm text-secondary"
+                      className="text-slate-200 font-black text-xs md:text-xs lg:text-xs bg-zinc-700 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}
                     </span>

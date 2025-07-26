@@ -1,5 +1,6 @@
 import {
   IconBrandGithub,
+  IconBrandGmail,
   IconBrandInstagram,
   IconBrandLinkedin,
 } from "@tabler/icons-react";
@@ -16,8 +17,13 @@ export const socials = [
     icon: IconBrandGithub,
   },
   {
+    href: "mailto:costajoaopaulo113@gmail.com",
+    label: "Gmail",
+    icon: IconBrandGmail,
+  },
+  /*{
     href: "https://instagram.com/arquimjoao",
     label: "Instagram",
     icon: IconBrandInstagram,
-  },
+  },*/
 ];
