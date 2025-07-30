@@ -40,7 +40,7 @@ export default function SingleProjectPage({
   const product = products.find((p) => p.slug === slug);
 
   if (!product) {
-    redirect("/projects");
+    redirect("/projetos");
   }
   return (
     <Container>

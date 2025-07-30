@@ -17,7 +17,7 @@ export const products = [
     thumbnail: vistasmob,
     images: [vistasmob, vistasExplodidas, vistas, vistas2],
     stack: ["Vuejs", "Ant-Design", "Vuex", "Spring Boot", "PostgreSQL", "NGINX", "Docker"],
-    slug: "aceternity",
+    slug: "vistas",
     content: (
       <div>
         <p>
@@ -47,7 +47,7 @@ export const products = [
     thumbnail: gringaEnglish,
     images: [gringaEnglish],
     stack: ["Nextjs", "Tailwindcss", "Shadcn", "SupaBase", "TypeScript"],
-    slug: "algochurn",
+    slug: "gringa",
     content: (
       <div>
         <p>
@@ -77,7 +77,7 @@ export const products = [
     thumbnail: marcacao,
     images: [marcacao],
     stack: ["Reactjs", "Laravel", "Docker", "Clean Code", "SOLID"],
-    slug: "moonbeam",
+    slug: "marcacao",
     content: (
       <div>
         <p>
@@ -107,7 +107,7 @@ export const products = [
     thumbnail: aeroportoVoo,
     images: [aeroportoVoo],
     stack: ["Vuejs", "Ant-Design", "Vuex", "Nestjs", "PostgreSQL"],
-    slug: "tailwindmasterkit",
+    slug: "aeroporto",
     content: (
       <div>
         <p>
@@ -137,7 +137,7 @@ export const products = [
     thumbnail: sghtmobile,
     images: [sghtmobile, sght],
     stack: ["Vuejs", "Ant-Design", "Vuex", "Spring Boot", "PostgreSQL", "NGINX", "Docker"],
-    slug: "tailwindmasterkit",
+    slug: "sght",
     content: (
       <div>
         <p>

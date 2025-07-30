@@ -5,7 +5,7 @@ export const timeline = [
     date: "set de 2024 - mar de 2025",
     description: "",
     responsibilities: [
-      " Sou responsável por revisar, implementar ferramentas tecnológicas",
+      "Sou responsável por revisar, implementar ferramentas tecnológicas",
       "Desenvolvimento de um projeto full-stack para armazenamento das vistas explodidas",
       "Implementação de segurança no projeto utilizando Spring Security com Autenticação JWT",
       "Implementação da versão do site para aplicativo utilizando o PWA."
