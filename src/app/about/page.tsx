@@ -27,9 +27,21 @@ export default function AboutPage() {
   ];
   return (
     <Container>
-      <span className="text-4xl">💬</span>
-      <Heading className="font-black">Sobre mim</Heading>
-      <About />
+      <div className="space-y-8">
+        <div className="relative">
+          <div className="absolute -inset-x-4 -inset-y-4 z-0 bg-gradient-to-r from-purple-500/10 via-transparent to-blue-500/10 rounded-xl"></div>
+          <div className="relative z-10 space-y-4">
+            <div className="flex items-center space-x-3">
+              <span className="text-4xl animate-bounce">💬</span>
+              <Heading className="font-black bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                Sobre mim
+              </Heading>
+            </div>
+            <div className="h-[1px] w-full bg-gradient-to-r from-purple-500/20 via-neutral-400/10 to-transparent"></div>
+          </div>
+        </div>
+        <About />
+      </div>
     </Container>
   );
 }

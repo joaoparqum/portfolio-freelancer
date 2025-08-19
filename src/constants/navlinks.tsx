@@ -13,17 +13,17 @@ export const navlinks = [
     icon: IconBolt,
   },
   {
-    href: "/sobre",
+    href: "/about",
     label: "Sobre",
     icon: IconMessage2,
   },
   {
-    href: "/projetos",
+    href: "/projects",
     label: "Projetos",
     icon: IconBriefcase2,
   },
   {
-    href: "/contato",
+    href: "/contact",
     label: "Contato",
     icon: IconMail,
   },

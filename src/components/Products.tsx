@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 
 export const Products = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1  gap-10">
+    <div className="relative">
+      <div className="grid grid-cols-1 gap-6 sm:gap-8">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
@@ -28,36 +28,62 @@ export const Products = () => {
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
               key={product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
+              className="group relative flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 hover:bg-white/5 rounded-xl transition-all duration-300 p-4 overflow-hidden"
             >
-              <Image
-                src={product.thumbnail}
-                alt="thumbnail"
-                height="200"
-                width="200"
-                className="rounded-md"
-              />
-              <div className="flex flex-col justify-between">
+              <div className="relative w-full md:w-72 aspect-video md:aspect-square flex-shrink-0">
+                <Image
+                  src={product.thumbnail}
+                  alt={product.title}
+                  fill
+                  className="rounded-lg object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectFit: 'cover' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+              </div>
+              <div className="flex flex-col justify-between flex-1">
                 <div>
                   <Heading
                     as="h4"
-                    className="text-neutral-400 font-black text-lg md:text-lg lg:text-lg "
+                    className="text-white font-black text-xl md:text-2xl group-hover:text-purple-400 transition-colors duration-300"
                   >
                     {product.title}
                   </Heading>
-                  <Paragraph className="text-neutral-400 text-sm md:text-sm lg:text-sm mt-2 max-w-xl mb-2">
+                  <Paragraph className="text-neutral-400 text-sm md:text-base mt-3 max-w-xl mb-4">
                     {product.description}
                   </Paragraph>
                 </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
-                  {product.stack?.map((stack: string) => (
+                <div className="flex flex-wrap gap-2 md:mb-1 mt-4">
+                  {product.stack?.map((stack: string, index: number) => (
                     <span
                       key={stack}
-                      className="text-slate-200 font-black text-xs md:text-xs lg:text-xs bg-zinc-700 px-2 py-1 rounded-sm text-secondary"
+                      className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-purple-500/10 to-blue-500/10 text-purple-300 border border-purple-500/20 hover:border-purple-500/40 transition-colors duration-300"
                     >
                       {stack}
                     </span>
                   ))}
+                </div>
+                <div className="mt-4 flex items-center text-sm text-neutral-400 group-hover:text-neutral-300 transition-colors duration-300">
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                    ></path>
+                  </svg>
+                  Visualizar projeto
                 </div>
               </div>
             </Link>

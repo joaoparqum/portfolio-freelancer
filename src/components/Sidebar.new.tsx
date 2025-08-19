@@ -103,7 +103,9 @@ const Navigation = ({
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        <br/>
+        <Heading as="p" className="text-neutral-300/70 text-xs uppercase tracking-wider font- pt-10 px-4">
+          Redes Sociais
+        </Heading>
       </motion.div>
 
       {socials.map((link: Navlink, index) => (
