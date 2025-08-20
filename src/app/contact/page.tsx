@@ -4,13 +4,6 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import { Paragraph } from "@/components/Paragraph";
 import { motion } from "framer-motion";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Contato | João P.",
-  description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
-};
 
 export default function ContactPage() {
   return (
